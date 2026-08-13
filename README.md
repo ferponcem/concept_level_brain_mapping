@@ -30,8 +30,6 @@ The scripts are organized in the right order, so running one by one will ensure 
 
 This code was developed and tested with Python 3.13.5. Clone this repository and install the dependencies:
 ```bash
-git clone https://github.com/<your-repo>
-cd <your-repo>
 python -m pip install -r requirements.txt
 ```
 
