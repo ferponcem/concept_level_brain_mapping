@@ -1,0 +1,578 @@
+all:
+- action-outcome_learning
+- auditory_feedback
+- auditory_perception
+- auditory_sentence_recognition
+- breath_holding
+- cardinal-direction_judgment
+- coherent_motion
+- combinatorial_semantics
+- defensive_aggression
+- language_comprehension
+- listening
+- localization
+- object_categorization
+- potential_monetary_reward
+- recognition
+- response_selection
+- reward_valuation
+- risk_processing
+- saccadic_eye_movement
+- selective_control
+- sound_perception
+- spatial_distance
+- speech_perception
+- strategy
+- string_maintenance
+- temporal_cognition
+- visual_face_recognition
+- visual_localization
+- visual_number_recognition
+- visual_sentence_comprehension
+comments:
+- action_perception
+- loss
+- voice_perception, sound_perception
+- speech_processing
+- self_monitoring
+- cardinal_orientation, time_orientation
+- visual_awareness
+- syntactic_parsing
+- risk_processing
+- language_processing
+- sound_perception
+- sensory_memory
+- object_recognition
+- reward_processing, reward_valuation
+- episodic_memory, other-reference_effect
+- response_execution
+- reward_processing
+- risk_aversion
+- attentional_focusing
+- incentive_salience
+- voice_perception
+- cardinal_orientation, time_orientation
+- voice_perception, language_processing, auditory_recognition
+- loss
+- visual_string_recognition
+- spatial_localization, time_orientation, memory_retrieval
+- face_perception
+- visual_search
+- visual_letter_recognition
+- visual_word_recognition
+sub-01:
+- animacy_perception
+- auditory_arithmetic_processing
+- facial_attractiveness_recognition
+- feature_comparison
+- hand_side_recognition
+- memory_retrieval
+- shape_recognition
+- short-term_memory
+- updating
+- visual_color_discrimination
+sub-07:
+- animacy_perception
+- attentional_focusing
+- auditory_arithmetic_processing
+- updating
+- feature_comparison
+- hand_side_recognition
+- memory_retrieval
+- short-term_memory
+- visual_attention
+sub-13:
+- animacy_perception
+- auditory_arithmetic_processing
+- updating
+- feature_comparison
+- hand_side_recognition
+- memory_retrieval
+- short-term_memory
+- visual_attention
+- visual_color_discrimination
+all_v2:
+- auditory_feedback
+- auditory_memory
+- auditory_recognition
+- biological_motion
+- breath_holding
+- cardinal-direction_judgment
+- cardinal_orientation
+- combinatorial_semantics
+- emotional_face_recognition 
+- emotional_memory
+- facial_expression
+- horizontal_checkerboard
+- language_comprehension
+- memory_retrieval
+- response_selection
+- risk_aversion
+- search_depth
+- sensory_memory
+- spatial_distance
+- strategy
+- temporal_categorization
+- temporal_cognition
+- far_peripheral_vision
+- visual_face_recognition
+- visual_recognition
+comments_v2:
+- loss
+- auditory_attention
+- auditory_perception
+- motion_detection
+- self_monitoring
+- episodic_memory, temporal cognition
+- spatial_distance
+- syntactic_parsing
+- emotional_expression
+- past_time, positive_emotion
+- emotional_expression
+- vertical_checkerboard
+- speech_processing
+- spatial_localization
+- response_execution
+- risk_processing
+- working_memory
+- localization
+- time_orientation
+- loss
+- future_time
+- time_orientation
+- visual_color_discrimination
+- face_perception
+- visual_object_detection
+sub-01_v2:
+- animacy_decision
+- auditory_attention
+- body_maintenance
+- facial_attractiveness_recognition
+- feature_comparison
+- hand_side_recognition
+- tool_maintenance
+- visual_tool_recognition
+sub-05_v2:
+- body_maintenance
+- lower-left_vision
+- object_maintenance
+- place_maintenance
+sub-07_v2:
+- body_maintenance
+- hand_side_recognition
+- incentive_salience
+- selective_control
+- tool_maintenance
+- visual_tool_recognition
+sub-13_v2:
+- body_maintenance
+- hand_side_recognition
+- incentive_salience
+- selective_control
+- tool_maintenance
+- visual_tool_recognition
+sub-01_v3_sparse:
+- animacy_decision
+- feature_comparison
+- hand_side_recognition
+- reward_valuation
+- tool_maintenance
+- updating
+- visual_localization
+sub-05_v3_sparse:
+- animacy_decision
+- auditory_perception
+- body_maintenance
+- goal_hierarchy
+- loss_aversion
+- object_maintenance
+- reward_valuation
+- visual_buffer
+- visual_localization
+sub-07_v3_sparse:
+- animacy_decision
+- auditory_perception
+- goal_hierarchy
+- hand_side_recognition
+- reward_valuation
+- saccadic_eye_movement
+- selective_control
+- tool_maintenance
+- updating
+- visual_buffer
+- visual_localization
+sub-13_v3_sparse:
+- animacy_decision
+- auditory_perception
+- goal_hierarchy
+- hand_side_recognition
+- reward_valuation
+- saccadic_eye_movement
+- selective_control
+- tool_maintenance
+- updating
+- visual_buffer
+- visual_localization
+all_v4:
+- action-outcome_learning
+- auditory_recognition
+- auditory_attention
+- body_maintenance
+- breath_holding
+- cardinal-direction_judgment
+- cardinal_orientation
+- cue_switch
+- face_maintenance
+- facial_expression
+- planning
+- imagined_emotional_pain
+- loss_aversion
+- place_maintenance
+- response_selection
+- reward_valuation
+- semantic_categorization
+- spatial_distance
+- subjective_food_value
+- temporal_categorization
+- visual_face_recognition
+comments_v4:
+- action_perception
+- auditory_memory
+- auditory_perception, auditory_working_memory, voice_perception
+- visual_body_recognition
+- self_monitoring
+- spatial_localization
+- spatial_distance
+- task_switch
+- face_perception
+- emotional_expression
+- goal_hierarchy, search_depth
+- empathy
+- risk_aversion
+- visual_place_recognition
+- response_execution
+- reward_processing
+- time_orientation
+- spatial_working_memory
+- food_cue_reactivity
+- future_time, past_time
+- face_perception
+sub-07_v4:
+- animacy_decision
+- auditory_memory
+- imagined_physical_pain
+- selective_attention
+- selective_control
+- visual_form_discrimination
+- visual_tool_recognition
+sub-13_v4:
+- animacy_decision
+- auditory_memory
+- imagined_physical_pain
+- selective_attention
+- selective_control
+- visual_form_discrimination
+- visual_tool_recognition
+sub-01_v4_sparse:
+- facial_trustworthiness_recognition
+- feature_comparison
+- visual_buffer
+- visual_recognition
+sub-05_v4_sparse:
+- facial_trustworthiness_recognition
+- visual_recognition
+sub-07_v4_sparse:
+- facial_trustworthiness_recognition
+- selective_attention
+- visual_buffer
+- visual_recognition
+sub-13_v4_sparse:
+- facial_trustworthiness_recognition
+- selective_attention
+- visual_buffer
+- visual_recognition
+all_regsel:
+- action-outcome_learning
+- animacy_decision
+- auditory_attention
+- auditory_memory
+- biological_motion
+- body_maintenance
+- breath_holding
+- cardinal-direction_judgment
+- cardinal_orientation
+- cue_switch
+- decision_making
+- east_cardinal-direction_judgment
+- emotional_face_recognition
+- empathy
+- episodic_memory
+- facial_expression
+- place_maintenance
+- response_selection
+- semantic_categorization
+- south_cardinal-direction_judgment
+- temporal_categorization
+- visual_face_recognition
+- visual_tool_recognition
+comments_regsel:
+- action_perception
+- animacy_perception
+- voice_perception
+- voice_perception
+- motion_detection
+- visual_body_recognition
+- self_monitoring
+- spatial_localization
+- spatial_distance
+- task_switch
+- selective_control
+- west_cardinal-direction_judgment
+- facial_trustworthiness_recognition
+- imagined_emotional_pain, imagined_physical_pain
+- spatial_distance
+- emotional_expression
+- visual_place_recognition
+- response_execution
+- north_cardinal-direction_judgment
+- time_orientation
+- future_time, past_time
+- face_perception
+- visual_object_recognition
+all_regsel_contrats:
+- action-outcome_learning
+- auditory_attention
+- auditory_memory
+- auditory_recognition
+- auditory_working_memory
+- body_maintenance
+- cardinal-direction_judgment
+- cardinal_orientation
+- combinatorial_semantics
+- conflict_detection
+- cue_switch
+- face_maintenance
+- facial_expression
+- judgment
+- memory_retrieval
+- object_recognition
+- place_maintenance
+- proactive_control
+- response_selection
+- selective_attention
+- strategy
+- updating
+- visual_face_recognition
+- visual_localization
+- visual_pattern_recognition
+- voice_perception
+comments_regsel_contrats:
+- action_perception
+- auditory_perception
+- auditory_perception
+- voice_perception
+- speech_perception
+- visual_body_recognition
+- episodic_memory
+- spatial_working_memory
+- syntactic_parsing
+- color_perception
+- task_switch
+- visual_face_recognition
+- emotional_expression, emotional_face_recognition
+- visual_representation
+- spatial_localization
+- auditory_working_memory
+- visual_place_recognition
+- visual_shape_recognition
+- response_execution
+- saccadic_eye_movement, spatial_attention
+- motor_control, motor_planning
+- visual_working_memory
+- face_perception
+- salience, visual_earch
+- numerosity
+- auditory_perception
+sub-01_regsel_contrasts_bin:
+- facial_attractiveness_recognition
+- string_maintenance
+- visual_buffer
+- visual_orientation
+- visual_tool_recognition
+sub-07_regsel_contrasts_bin:
+- sentence_comprehension
+- spatial_attention
+- string_maintenance
+- visual_buffer
+- visual_tool_recognition
+sub-13_regsel_contrasts_bin:
+- sentence_comprehension
+- spatial_attention
+- string_maintenance
+- visual_buffer
+- visual_tool_recognition
+sub-01_regsel_sparse:
+- face_maintenance
+- feature_comparison
+- gender_perception
+- judgment
+- lower-right_vision
+- motion_detection
+- narrative_comprehension
+- numerosity
+- relational_comparison
+- response_inhibition
+- right_finger_response_execution
+- salience
+- sentence_comprehension
+- spatial_distance
+- spatial_memory
+- string_maintenance
+- task_difficulty
+- tool_maintenance
+- updating
+- visual_attention
+- visual_buffer
+- visual_form_discrimination
+- visual_imagery
+- visual_perception
+- visual_pseudoword_recognition
+- visual_recognition
+- visual_search
+- visual_sentence_comprehension
+- voice_perception
+- west_cardinal-direction_judgment
+- word_maintenance
+sub-05_regsel_sparse:
+- conflict_detection
+- feature_comparison
+- gender_perception
+- lower-left_vision
+- lower-right_vision
+- object_maintenance
+- proactive_control
+- relational_comparison
+- right_finger_response_execution
+- sentence_comprehension
+- spatial_attention
+- spatial_memory
+- spatial_distance
+- tool_maintenance
+- updating
+- visual_attention
+- visual_form_discrimination
+- visual_imagery
+- visual_pseudoword_recognition
+- visual_sentence_comprehension
+- visual_recognition
+- word_maintenance
+sub-07_regsel_sparse:
+- conflict_detection
+- feature_comparison
+- gender_perception
+- lower-right_vision
+- proactive_control
+- relational_comparison
+- right_finger_response_execution
+- salience
+- spatial_distance
+- tool_maintenance
+- updating
+- visual_attention
+- visual_form_discrimination
+- visual_imagery
+- visual_pseudoword_recognition
+- visual_recognition
+- word_maintenance
+sub-13_regsel_sparse:
+- conflict_detection
+- feature_comparison
+- gender_perception
+- lower-right_vision
+- proactive_control
+- relational_comparison
+- right_finger_response_execution
+- salience
+- spatial_distance
+- tool_maintenance
+- updating
+- visual_attention
+- visual_form_discrimination
+- visual_imagery
+- visual_pseudoword_recognition
+- visual_recognition
+- word_maintenance
+sub-01_regsel_contrasts_sparse:
+- animacy_decision
+- facial_attractiveness_recognition
+- feature_comparison
+- hand_side_recognition
+- maintenance
+- narrative_comprehension
+- numerosity
+- response_inhibition
+- spatial_memory
+- string_maintenance
+- tool_maintenance
+- visual_buffer
+- visual_form_discrimination
+- visual_perception
+- visual_orientation
+- visual_string_recognition
+- visual_tool_recognition
+- word_maintenance
+sub-05_regsel_contrasts_sparse:
+- animacy_decision
+- maintenance
+- negative_emotion
+- object_maintenance
+- spatial_memory
+- string_maintenance
+- task_difficulty
+- visual_attention
+- visual_number_recognition
+- visual_scene_perception
+- visual_shape_recognition
+- word_maintenance
+sub-06_regsel_contrasts_sparse:
+- spatial_attention
+- string_maintenance
+- visual_attention
+- visual_number_recognition
+- word_maintenance
+sub-07_regsel_contrasts_sparse:
+- animacy_decision
+- hand_side_recognition
+- maintenance
+- negative_emotion
+- spatial_attention
+- spatial_memory
+- string_maintenance
+- task_difficulty
+- tool_maintenance
+- visual_attention
+- visual_form_discrimination
+- visual_shape_recognition
+- visual_string_recognition
+- word_maintenance
+sub-09_regsel_contrasts_sparse:
+- spatial_attention
+- string_maintenance
+- visual_attention
+- visual_number_recognition
+- word_maintenance
+sub-13_regsel_contrasts_sparse:
+- animacy_decision
+- hand_side_recognition
+- maintenance
+- negative_emotion
+- spatial_attention
+- spatial_memory
+- string_maintenance
+- task_difficulty
+- tool_maintenance
+- visual_attention
+- visual_form_discrimination
+- visual_shape_recognition
+- visual_string_recognition
+- word_maintenance
